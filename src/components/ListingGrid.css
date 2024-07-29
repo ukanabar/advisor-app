@@ -1,0 +1,47 @@
+.advisor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.advisor-table th, .advisor-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.advisor-table th {
+    background-color: #f2f2f2;
+}
+
+.advisor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.advisor-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.update-button, .delete-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.update-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #FF4136;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
